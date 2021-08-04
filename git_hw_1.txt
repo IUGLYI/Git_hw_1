@@ -1,0 +1,31 @@
+1. pwd
+2. mkdir QA
+3. cd QA
+4. mkdir QA1 QA2 QA3
+5. cd QA1
+6. touch qa1.txt qa2.txt qa3.txt qa1.json qa2.json
+7. mkdir QA4 QA5 QA6
+8. ls
+9. vim qa0.txt
+10. "text"
+11. Esc + Shift ZZ
+12. cd ..
+13. mv QA1/qa1.json QA0/qa2.json QA2
+14. cp QA1/qa1.txt QA0/qa2.txt QA2
+15. find -name qa0.txt
+16. tail -f qa0.txt
+17. head -2 qa0.txt
+18. tail -2 qa0.txt
+19. less qa0.txt
+20. date
+
+- curl https://api.quarantine.country/api/v1/regions
+
+- #!/bin/bash
+- cd /C/Users/stani/QA
+- mkdir QA1 QA2 QA3
+- cd QA1
+- touch qa1.txt qa2.txt qa3.txt qa1.json qa2.json
+- mkdir QA4 QA5 QA6
+- ls
+- mv /c/Users/stani/QA/QA1/qa1.json /c/Users/stani/QA/QA1/qa2.json /c/Users/stani/QA/QA2
