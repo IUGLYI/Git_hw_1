@@ -21,7 +21,7 @@
 
 - curl https://api.quarantine.country/api/v1/regions
 
-# Создаем фаил
+# Создаем скрипт фаил
 touch script.sh
 # Заходим в фаил
 vim script.sh
