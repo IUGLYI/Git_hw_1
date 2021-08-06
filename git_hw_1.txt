@@ -21,11 +21,21 @@
 
 - curl https://api.quarantine.country/api/v1/regions
 
+# Создаем фаил
+touch script.sh
+# Заходим в фаил
+vim script.sh
+# Прописываем в script.sh параметры
 - #!/bin/bash
-- cd /C/Users/stani/QA
+- cd /C/Users/stani/git
 - mkdir QA1 QA2 QA3
 - cd QA1
 - touch qa1.txt qa2.txt qa3.txt qa1.json qa2.json
 - mkdir QA4 QA5 QA6
 - ls
-- mv /c/Users/stani/QA/QA1/qa1.json /c/Users/stani/QA/QA1/qa2.json /c/Users/stani/QA/QA2
+- mv /C/Users/stani/git/Git_hw_1/QA1/qa1.json /C/Users/stani/git/Git_hw_1/QA1/qa2.json /C/Users/stani/git/Git_hw_1/QA2
+Esc + Shift ZZ
+# Активируем script.sh при помощи команды
+chmod +x script.sh
+# Запускаем scripr.sh
+./script.sh
