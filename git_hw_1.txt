@@ -6,7 +6,7 @@
 6. touch qa1.txt qa2.txt qa3.txt qa1.json qa2.json
 7. mkdir QA4 QA5 QA6
 8. ls
-9. vim qa0.txt
+9. vim qa1.txt
 10. "text"
 11. Esc + Shift ZZ
 12. cd ..
